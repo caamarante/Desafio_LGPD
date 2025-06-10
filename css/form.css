@@ -52,3 +52,42 @@ button {
 .titulo {
     margin-left: 8px;
 }
+
+.paragrafo_termos{
+    width: 312px;
+    font-size: .75rem;
+    text-align: justify;
+    margin: 0 8px 8px 8px;
+}
+
+.checkbox_forms {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.checkbox_forms div {
+    padding: 4px;
+    font-size: .8125rem;
+    display: flex;
+    align-items: center;
+}
+
+.botao_desabilitado {
+    background-color: #bebebe;
+    color: #545454;
+}
+
+.botao_desabilitado:hover {
+    background-color: #bebebe;
+    color: #545454;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+input[type="number"]::-moz-range-thumb {
+    -moz-appearance: none; 
+    margin: 0;
+}
